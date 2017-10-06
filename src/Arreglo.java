@@ -16,9 +16,9 @@ public class Arreglo {
        System.out.println();
 
 
-        int[] c={89,56,-5,6,0,};
+       /* int[] c={89,56,-5,6,0,};
         Arreglo z =new Arreglo();
-        z.recurisividad(c, c.length);
+        z.recurisividad(c, c.length);*/
 
 
     }
@@ -71,7 +71,7 @@ public class Arreglo {
 
     }
 
-   public void recurisividad(int[] n, ){
+   /*public void recurisividad(int[] n){
         int aux;
         if(n<1){
             for (int j = 0; j < n.length; j++) {
@@ -80,10 +80,10 @@ public class Arreglo {
                     n[j] = n[j+1];
                     n[j+1] = aux; } }
 
-                    recurisividad(n,a-1);
+                    recurisividad(n,n-1);
 
 
-            }
+            }*/
 
 
 
@@ -91,7 +91,7 @@ public class Arreglo {
 
 
 
-}
+
 
 
 
